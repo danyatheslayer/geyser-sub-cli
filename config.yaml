@@ -1,0 +1,4 @@
+solana_rpc_url: "https://api.devnet.solana.com"
+sender_privkey: pk
+recipient_pubkey: NSeNsegABZxxJF2fEmCpGGXu2kK3yTWcMsgyTLb2puP
+amount: 1000000

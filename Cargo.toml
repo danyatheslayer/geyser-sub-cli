@@ -1,0 +1,21 @@
+[package]
+name = "geyser-subscription"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+clap = { version = "4.5.27", features = ["derive"] }
+env_logger = "0.11.6"
+futures = "0.3.31"
+log = "0.4.25"
+maplit = "1.0.2"
+serde = "1.0.217"
+serde_yaml = "0.9.34"
+solana-client = "2.1.10"
+solana-sdk = "2.1.10"
+tokio = "1.43.0"
+tonic = "0.12.3"
+tonic-health = "0.12.3"
+yellowstone-grpc-client = "4.1.1"
+yellowstone-grpc-proto = "4.1.1"
